@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java Fast Track
-category: jekyll
+category: Java
 ---
 ![gorge]({{ site.baseurl }}\img\columbiagorge.png)
 
