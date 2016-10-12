@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Java Fast Track
+title: JAVA FAST TRACK
+author: Tony Xu
 category: Java
 ---
 ![gorge]({{ site.baseurl }}\img\columbiagorge.png)
@@ -8,15 +9,17 @@ category: Java
 A programming language is like our second language. If you does not use it for
 a while, then it will disapear from our memory. The best way is to
 practice it by writing code snippets everyday.
+
+
 <!--description-->
 
-# Files
-
+## FILES
+---
 In Java Programming Lanaguge, File operations relates to
 [java.io.File](https://docs.oracle.com/javase/7/docs/api/java/io/File.html)
 class.
 
-### Create
+### create
 
 We can create a file by using
 [createNewFile()](https://docs.oracle.com/javase/7/docs/api/java/io/File.html#createNewFile())
@@ -37,20 +40,19 @@ public static void CreateFile(String fileName){
   }
 }
 ```
+### read
 
-### Update
+### update
 
-### Read
+### delete
 
-### Delete
+## NETWORKING
+---
 
-# Directories
+## CONCURRENCY
+---
 
-# Networking
-
-# Threading
-
-
-# Reference
+## REFERENCE
+---
 1. Tutorials Point, [Java Programming Examples](https://www.tutorialspoint.com/javaexamples/index.htm)
 2. Joshua Bloch, [Effective Java 2nd](https://www.amazon.com/Effective-Java-2nd-Joshua-Bloch/dp/0321356683)
