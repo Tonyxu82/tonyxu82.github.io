@@ -8,11 +8,13 @@
 # Site settings
 title: < SEED />
 email: tonyxu82@gmail.com
-description: Still other seed fell on good soil. It came up, grew and produced a crop, some multiplying thrity, some sixty, some a hundred times.
+description: Seed of Dream.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-twitter_username: tonytonyxu
+
+
 github_username:  tonyxu82
+twitter_username: tonytonyxu
 
 # Build settings
 markdown: kramdown
