@@ -6,7 +6,7 @@ category: Java
 ![gorge]({{ site.baseurl }}\img\columbiagorge.png)
 
 A programming language is like our second language. If you does not use it for
-a while, then it will dispear from our memory. The best way is to
+a while, then it will disapear from our memory. The best way is to
 practice it by writing code snippets everyday.
 <!--description-->
 
