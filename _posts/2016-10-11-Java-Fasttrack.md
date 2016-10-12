@@ -6,16 +6,21 @@ category: Java
 ![gorge]({{ site.baseurl }}\img\columbiagorge.png)
 
 A programming language is like our second language. If you does not use it for
-a while, then you brain will clean it from your memory. So the best way is to
-practice it by writing code snippets of it everyday. <!--description-->
+a while, then it will dispear from our memory. The best way is to
+practice it by writing code snippets everyday.
+<!--description-->
 
 # Files
 
-In Java Programming Lanaguge, File operations relates to [java.io.File](https://docs.oracle.com/javase/7/docs/api/java/io/File.html) class.
+In Java Programming Lanaguge, File operations relates to
+[java.io.File](https://docs.oracle.com/javase/7/docs/api/java/io/File.html)
+class.
 
 ### Create
 
-We can create a file by using [createNewFile()](https://docs.oracle.com/javase/7/docs/api/java/io/File.html#createNewFile()) method. A code snippet shows how to create a file.
+We can create a file by using
+[createNewFile()](https://docs.oracle.com/javase/7/docs/api/java/io/File.html#createNewFile())
+method. A code snippet shows how to create a file.
 
 ```java
 //Create a file by using createNewFile() method
