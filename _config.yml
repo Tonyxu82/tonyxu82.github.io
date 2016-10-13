@@ -17,9 +17,9 @@ github_username:  tonyxu82
 twitter_username: tonytonyxu
 
 # Build settings
+highlighter: rouge
 markdown: kramdown
 kramdown:
-  syntax_highlighter: rouge
   input: GFM
 
 # Third-party services
