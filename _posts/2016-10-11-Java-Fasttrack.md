@@ -14,7 +14,7 @@ practice it by writing code snippets everyday.
 <!--description-->
 
 ## FILES
----
+
 In Java Programming Lanaguge, File operations relates to
 [java.io.File](https://docs.oracle.com/javase/7/docs/api/java/io/File.html)
 class.
@@ -49,12 +49,12 @@ public static void CreateFile(String fileName){
 ### delete
 
 ## NETWORKING
----
+
 
 ## CONCURRENCY
----
+
 
 ## REFERENCE
----
+
 1. Tutorials Point, [Java Programming Examples](https://www.tutorialspoint.com/javaexamples/index.htm)
 2. Joshua Bloch, [Effective Java 2nd](https://www.amazon.com/Effective-Java-2nd-Joshua-Bloch/dp/0321356683)
