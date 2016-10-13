@@ -8,7 +8,7 @@
 # Site settings
 title: < SEED />
 email: tonyxu82@gmail.com
-description: Seed of Dream
+description: a seed of dream
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 

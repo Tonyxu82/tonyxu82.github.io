@@ -22,7 +22,7 @@ body {
   padding-bottom: 0rem;
   width:100%;
 
-  /* footer style */    
+  /* footer style */
   color: #99999a;
   background-color: #FAFAFB;
 
@@ -105,7 +105,6 @@ body {
     display: -moz-flex; /* Firefox 18+ */
     display: -ms-flexbox; /* IE 10 */
     display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */// Import partials from `sass_dir` (defaults to `_sass`)
-
     opacity: 0;
     height: 0;
     -webkit-transition: all .4s;
@@ -119,7 +118,7 @@ body {
       border-bottom:1px solid #ddd;
     }
   }
-  
+
   #menu-toggle:checked+.site-nav {
     opacity: 1;
     height: auto;
@@ -167,6 +166,7 @@ input#menu-toggle {
 
 .site-header {
   text-align:right;
+  color: #99999a;
   @include media-query($on-laptop){
     text-align: center;
     margin-bottom: 40px;
@@ -181,7 +181,7 @@ input#menu-toggle {
 }
 
 .post-list {
-  
+
 }
 
 .post_header {
@@ -329,7 +329,7 @@ body.custom-background {
 
 /* Archive page */
 
-.archive_list { 
+.archive_list {
   margin-left:5%;
   width:90%;
   margin-bottom:3rem;
@@ -355,7 +355,7 @@ div.post_title span.date {
 
 .pagination {
   width:50%;
-}  
+}
 
 .pagination.older-post{
   float: right;
