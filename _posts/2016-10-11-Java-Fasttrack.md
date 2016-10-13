@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JAVA FAST TRACK
+title: JAVA FAST TRACK (In Progress)
 author: Tony Xu
 category: Java
 ---
