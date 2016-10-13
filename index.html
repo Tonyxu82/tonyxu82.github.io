@@ -19,9 +19,9 @@ title: Home
           {{ post.description}}
           {% else %}
           {{ post.excerpt }}
-          {% endif %} 
+          {% endif %}
           <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> »  </a>
-        </p> 
+        </p>
       </div>
       <footer class="post_meta">
 
@@ -43,8 +43,8 @@ title: Home
         <!--
         {% if post.author %}
         <span class="author_meta">
-          <img src="{{site.baseurl}}/assets/img/{{post.author}}.jpg"></img>
-          <span>David Lin</span>
+          <img src="{{site.baseurl}}/img/{{post.author}}.jpg"></img>
+          <span>{{post.author}}</span>
         </span>
         {% endif %}
         -->
