@@ -23,7 +23,7 @@ class.
 
 We can create a file by using
 [createNewFile()](https://docs.oracle.com/javase/7/docs/api/java/io/File.html#createNewFile())
-method. A code snippet shows how to create a file.
+method.
 
 ```java
 //Create a file by using createNewFile() method
@@ -44,12 +44,27 @@ public static void CreateFile(String fileName){
 ### read
 
 
+
 ### update
 
 ### delete
 
-## NETWORKING
+If a file exists, we can use [delete()](https://docs.oracle.com/javase/7/docs/api/java/io/File.html#delete())
+method to delete it.
 
+```java
+//Delete a exist file
+public void DeleteFile(fileName){
+  File file = new File(fileName);
+  if(file.delete()){
+    System.out.println("Success to delete the file!");
+  }else{
+    System.out.println("Fail to delete the file!");
+  }
+}
+```
+
+## NETWORKING
 
 ## CONCURRENCY
 
