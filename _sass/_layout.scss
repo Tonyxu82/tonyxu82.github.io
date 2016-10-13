@@ -169,7 +169,7 @@ input#menu-toggle {
   color: #99999a;
   @include media-query($on-laptop){
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
   nav a {
     font-weight:400;

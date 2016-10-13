@@ -487,11 +487,11 @@ li {
 code {
     padding: 0.2rem 0.5rem;
     margin: 0 0.2rem;
-    font-size: 90%;
+    font-size: 85%;
     white-space: nowrap;
     background: #F1F1F1;
-    border: 1px solid #E1E1E1;
-    border-radius: 4px;
+    //border: 1px solid #E1E1E1;
+    //border-radius: 4px;
 }
 
 pre > code {
@@ -501,22 +501,67 @@ pre > code {
 }
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+// td,
+// th {
+//     padding: 12px 15px;
+//     text-align: left;
+//     border-bottom: 1px solid #E1E1E1;
+// }
+//
+// td:first-child,
+// th:first-child {
+//     padding-left: 0;
+// }
+//
+// td:last-child,
+// th:last-child {
+//     padding-right: 0;
+// }
+//The CSS code comes from http://cssmenumaker.com/blog/stylish-css-tables-tutorial
+
+table {
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 1;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
 td,
 th {
-    padding: 12px 15px;
-    text-align: left;
-    border-bottom: 1px solid #E1E1E1;
+    border: 1px solid transparent;
+    /* No more visible border */
+    height: 30px;
+    transition: all 0.5s;
+    /* Simple transition for hover effect */
 }
 
-td:first-child,
-th:first-child {
-    padding-left: 0;
+th {
+    background: #DFDFDF;
+    /* Darken header a bit */
+    font-weight: bold;
 }
 
-td:last-child,
-th:last-child {
-    padding-right: 0;
+td {
+    background: #FAFAFA;
 }
+/* Cells in even rows (2,4,6...) are one color */
+tr:nth-child(even) td {
+    background: #F1F1F1;
+}
+/* Cells in odd rows (1,3,5...) are another (excludes header cells) */
+tr:nth-child(odd) td {
+    background: #FEFEFE;
+}
+
+tr td:hover {
+    background: #666;
+    color: #FFF;
+}
+/* Hover cell effect! */
 /* Spacing
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 button,
@@ -585,7 +630,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
 /* blockquote */
 blockquote {
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -600,7 +644,7 @@ blockquote {
     font-style: italic;
     font-size: 1.1em;
     min-height: 60px;
-    color: #666
+    color: #666;
 }
 
 blockquote:before {
