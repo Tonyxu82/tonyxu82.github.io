@@ -6,36 +6,39 @@ permalink: /links/
 ---
 ![Japanese Garden]({{ site.baseurl }}\img\jpgarden.png)
 
-<br>
+
+### REPOSITORIES
+
+- [Open JDK](http://grepcode.com/project/repository.grepcode.com/java/root/jdk/openjdk/)
+is a great opportunity to read the source code of open JDK.
+
 
 ### TUTORIALS
 
-#### [Jakob Jenkov\'s Tutorials](http://tutorials.jenkov.com/)
-Jakob create a series of tutorials about Java and Web development in well
+- [Jakob Jenkov\'s Tutorials](http://tutorials.jenkov.com/)
+contains a series of tutorials about Java and Web development in well
 organized way.
 
-#### [Mkyong's Blog](https://www.mkyong.com/)
-Mkyong's tutorials cover most of topic in Java Technologies with sufficient examples.
+- [Mkyong\'s Blog](https://www.mkyong.com/)
+provides tutorials cover most of topic in Java Technologies with sufficient examples.
 
-#### [Source Making's Design Pattern](https://sourcemaking.com/design_patterns)
-It is a good resouce to learn design patterns systematically.
+- [Source Making\'s Design Pattern](https://sourcemaking.com/design_patterns)
+is a good resouce to learn design patterns systematically.
 
-#### [Vogella](http://www.vogella.com/tutorials/)
-Love their one page tutorials, this is my style.
+- [Vogella](http://www.vogella.com/tutorials/)
+\'tutorials are one page style, I really love them.
 
-#### [JavaTpoint](http://www.javatpoint.com/)
-Comparing to Java's official tutorials, it provides simplied and concise ones.
+- [JavaTpoint](http://www.javatpoint.com/)
+provides simplied and concise tutorials comparing to official tutorials of Java.
 
-<br>
 
-### Tech Communities
+### TECH COMMUNITIES
 
-#### [DZone](https://dzone.com/)
-It is a zone for developers.
+- [DZone](https://dzone.com/)
+is a zone for developers.
 
-<br>
 
-### Data Structures and Algorithms
+### DATA STRUCTURES and ALGORITHMS
 
-#### [Big O Cheatsheet](http://www.bigocheatsheet.com/)
-Always love cheatsheet. But don\'t use it in your exam!
+- [Big O Cheatsheet](http://www.bigocheatsheet.com/)
+guides you in walking around the world of algorithms!
