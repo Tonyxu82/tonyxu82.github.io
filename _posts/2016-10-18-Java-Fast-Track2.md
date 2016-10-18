@@ -1,36 +1,14 @@
 ---
 layout: post
-title: JAVA FAST TRACK (In Progress)
+title: Java Fast Track - File
 author: Tony Xu
 category: Java
 ---
-![gorge]({{ site.baseurl }}\img\columbiagorge.png)
+![gorge]({{ site.baseurl }}\img\badger.png)
 
-A programming language is like our second language. If you does not use it for a while, then it will disapear from our memory. The best way is to
-practice it by writing code snippets everyday.
-
+How to operate a file in Java.
 
 <!--description-->
-
-## DATA TYPES
-
-The **primitive** types and **object reference** are two group types in Java. Boxed primitive types are object types but **immutable**.
-
-Primitive|Boxed      |Description
----------|-----------|---------------
-boolean  |Boolean    | true or false
-byte     |Byte       | 8-bit signed, -2^7~2^7-1
-short    |Short      | 16-bit signed, -2^15 to 2^15-1
-char     |Char       | 16-bit Unicode
-int      |Integer    | 32-bit signed, -2^31~2^31-1
-long     |Long       | 64-bit signed, -2^63~2^63-1
-float    |Float      | 32-bit floating point
-double   |Double     | 64-bit floating point
-char[]   |String     | N-byte Unicode string
-
-Java supports "auto boxing". That means, Java can "box" a primitive type into its Boxed version or vive versa ("unbox").
-
-## FILES
 
 In Java Programming Lanaguge, File operations relates to
 [java.io.File](https://docs.oracle.com/javase/7/docs/api/java/io/File.html)
@@ -80,10 +58,6 @@ public void DeleteFile(fileName){
   }
 }
 ```
-
-## NETWORKING
-
-## CONCURRENCY
 
 ## REFERENCE
 
