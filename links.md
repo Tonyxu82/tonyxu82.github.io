@@ -6,7 +6,9 @@ permalink: /links/
 ---
 ![Japanese Garden]({{ site.baseurl }}\img\jpgarden.png)
 
-## TUTORIALS
+<br>
+
+### TUTORIALS
 
 #### [Jakob Jenkov\'s Tutorials](http://tutorials.jenkov.com/)
 Jakob create a series of tutorials about Java and Web development in well
@@ -24,14 +26,16 @@ Love their one page tutorials, this is my style.
 #### [JavaTpoint](http://www.javatpoint.com/)
 Comparing to Java's official tutorials, it provides simplied and concise ones.
 
+<br>
 
-## Tech Communities
+### Tech Communities
 
 #### [DZone](https://dzone.com/)
 It is a zone for developers.
 
+<br>
 
-## Data Structures and Algorithms
+### Data Structures and Algorithms
 
 #### [Big O Cheatsheet](http://www.bigocheatsheet.com/)
 Always love cheatsheet. But don't use it during your exam!
