@@ -3,7 +3,7 @@ layout: post
 title: Eraser - a Dynamic Data Race Detector for Multithreaded Programs
 author: Tony Xu
 category: Operating System
-description: The review is based on "Savage, S., Burrows, M., Nelson, G., Sobalvarro, P., & Anderson, T. (1997). Eraser a dynamic data race detector for multithreaded programs. ACM Transactions on Computer Systems, 15(4), 391¨C411. doi:10.1145/265924.265927 "
+description: a paper review of "Savage, S., Burrows, M., Nelson, G., Sobalvarro, P., & Anderson, T. (1997). Eraser a dynamic data race detector for multithreaded programs. ACM Transactions on Computer Systems, 15(4), 391¨C411. doi:10.1145/265924.265927 "
 ---
 
 Nowadays, multithread is common but hard to program, even for an expert. One of the reasons is sychnoization. And the data race (race condition) is one of critical problem in sychnoization. The data race is two concurrent threads access a shared variable and at least one of them tries to modify it, and the result is timing-dependent. The potential data race, especially when the read/write order are not expected will corrupt the shared data. If this data is your account balance, that will be a disaster. Traditionally, we use lock & locked methods to protect such shared data, which we can call it critical section. But the problem is sometimes we will forget to protect the critical section since the complexity of the logic of the program. How to detect data race dynamically and statically become crucial.

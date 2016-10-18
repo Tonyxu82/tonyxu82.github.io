@@ -3,7 +3,7 @@ layout: post
 title: On the Duality of Operating System Structures
 author: Tony Xu
 category: Operating System
-description: This review is based on the paper "Lauer, Hugh C., and Roger M. Needham. "On the duality of operating system structures." ACM SIGOPS Operating Systems Review 13.2 (1979) 3-19.".
+description: A paper review of "Lauer, Hugh C., and Roger M. Needham. "On the duality of operating system structures." ACM SIGOPS Operating Systems Review 13.2 (1979) 3-19.".
 ---
 
 Event-Driven Model (Message Oriented Model) or Multi-Thread Model (Procedure Oriented Model)? The arguments always exist in design in large software system such as operating systems. In this paper, the authors try to reconcile such conflict to make the system design area to be more rational.

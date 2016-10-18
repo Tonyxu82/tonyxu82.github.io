@@ -3,7 +3,7 @@ layout: post
 title: Why Threads are a Bad Idea
 author: Tony Xu
 category: Operating System
-description: Why event-driven design is better than thread-based desgin
+description: A review of "John, Why threads are a bad idea (for most purposes)." Presentation given at the 1996 Usenix Annual Technical Conference. Vol. 5. 1996.
 ---
 
 The threads become popular, but even an expert will grumble that they are hard to program. The denouncement from John Ousterhost is extremely sharp. In his slide, he claims that the event-driven programming is a better choice for most purposes which the threads could be applied. For supporting this idea, he gives a brief introduction to the concepts of threads and events respectively, and comparing their pros and cons.

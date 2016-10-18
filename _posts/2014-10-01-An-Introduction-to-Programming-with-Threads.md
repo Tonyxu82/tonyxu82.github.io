@@ -3,7 +3,7 @@ layout: post
 title: An Introduction to Programming with Threads
 author: Tony Xu
 category: Operating System
-description: A review of Andrew Birrell's paper - An Introduction to Programming with Threads
+description: A review of Birrell, Andrew D. An introduction to programming with threads.
 ---
 
 # Introduction
