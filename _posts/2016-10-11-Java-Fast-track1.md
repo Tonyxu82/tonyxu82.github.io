@@ -3,12 +3,9 @@ layout: post
 title: Java Fast Track - Data Types
 author: Tony Xu
 category: Java
+description: Summarized data types of Java in one table.
 ---
 ![gorge]({{ site.baseurl }}\img\columbiagorge.png)
-
-Summarized data types of Java in one table.
-
-<!--description-->
 
 The **primitive** types and **object reference** are two group types in Java. Boxed primitive types are object types but **immutable**.
 

@@ -3,12 +3,9 @@ layout: post
 title: Java Fast Track - File
 author: Tony Xu
 category: Java
+description: How to operate a file in Java.
 ---
 ![gorge]({{ site.baseurl }}\img\badger.png)
-
-How to operate a file in Java.
-
-<!--description-->
 
 In Java Programming Lanaguge, File operations relates to
 [java.io.File](https://docs.oracle.com/javase/7/docs/api/java/io/File.html)
