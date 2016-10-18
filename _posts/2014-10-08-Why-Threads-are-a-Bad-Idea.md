@@ -2,7 +2,7 @@
 layout: post
 title: Why Threads are a Bad Idea
 author: Tony Xu
-category: Operating System
+category: Operating%20System
 description: Why event-driven design is better than thread-based desgin
 ---
 
