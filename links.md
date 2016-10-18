@@ -38,4 +38,4 @@ It is a zone for developers.
 ### Data Structures and Algorithms
 
 #### [Big O Cheatsheet](http://www.bigocheatsheet.com/)
-Always love cheatsheet. But don't use it during your exam!
+Always love cheatsheet. But don\'t use it in your exam!
