@@ -6,6 +6,8 @@ category: Operating System
 description: A review of "John, Why threads are a bad idea (for most purposes)." Presentation given at the 1996 Usenix Annual Technical Conference. Vol. 5. 1996.
 ---
 
+This is a review of "John, Why threads are a bad idea (for most purposes)." Presentation given at the 1996 Usenix Annual Technical Conference. Vol. 5. 1996.
+
 The threads become popular, but even an expert will grumble that they are hard to program. The denouncement from John Ousterhost is extremely sharp. In his slide, he claims that the event-driven programming is a better choice for most purposes which the threads could be applied. For supporting this idea, he gives a brief introduction to the concepts of threads and events respectively, and comparing their pros and cons.
 
 This presentation is made in 1995, so we have paid attention to the history context. At that time, the configuration of most personal computers and workstation were very poor (from today's perspective) - single CPU, single core, small memory and secondary storage. Some workstation and high performance computer can support multiprocessor, but the price cannot be accepted by the general consuming public.

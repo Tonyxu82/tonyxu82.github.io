@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Java Fast Track - File
+title: Java Fast Track - IO
 author: Tony Xu
 category: Java
-description: How to operate a file in Java.
+description: IO in JDK 8
 ---
-![gorge]({{ site.baseurl }}\img\badger.png)
-
 In Java Programming Lanaguge, File operations relates to
 [java.io.File](https://docs.oracle.com/javase/7/docs/api/java/io/File.html)
 class.

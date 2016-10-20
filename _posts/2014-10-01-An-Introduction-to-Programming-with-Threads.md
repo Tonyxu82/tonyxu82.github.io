@@ -6,6 +6,8 @@ category: Operating System
 description: A review of Birrell, Andrew D. An introduction to programming with threads.
 ---
 
+This is a review of Birrell, Andrew D. An introduction to programming with threads.
+
 # Introduction
 
 The concurrent mechanism is widely used in the modern systems, including operating systems, distributed system and so on. We can gain the benefits from it This paper concerns about how to use this mechanism by programming with threads. The author provides us introductory level content including:
