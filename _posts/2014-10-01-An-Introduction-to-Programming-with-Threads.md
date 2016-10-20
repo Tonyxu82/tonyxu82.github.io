@@ -11,10 +11,11 @@ This is a review of Birrell, Andrew D. An introduction to programming with threa
 # Introduction
 
 The concurrent mechanism is widely used in the modern systems, including operating systems, distributed system and so on. We can gain the benefits from it This paper concerns about how to use this mechanism by programming with threads. The author provides us introductory level content including:
-1) The motivation of concurrency and the thread
-2) The design of a thread facility
-3) How to use such facility. What difficulties and pitfalls you will meet when using multi-thread.
-4) Some principles for building a programming using threads.
+
+1. The motivation of concurrency and the thread
+2. The design of a thread facility
+3. How to use such facility. What difficulties and pitfalls you will meet when using multi-thread.
+4. Some principles for building a programming using threads.
 
 # Edition and Credibility
 
@@ -31,6 +32,7 @@ The basic facility of a thread includes the operations to maintain the life of a
 For better using concurrent programming, you will not only just learn how to use those techniques but also know some principles. Your program must be useful, such as your interface can be used in multiple thread's environment that means the every enter point must be thread re-entrant. The correctness more import and the performance, do you like to run faster and faster in the wrong direction? Based on those two points above, then we will avoid the deadlock to keep the program alive and use resources efficiently.
 
 # Reference
+
 1. http://research.microsoft.com/en-us/people/birrell/
 2. http://www.modula2.org/tutor/index.php
 3. http://en.wikipedia.org/wiki/Modula-2

@@ -17,6 +17,7 @@ The authors' work is essentially based on the Lamport's Happen-Before. In Lampor
 In this paper, when mentioning the performance and correctness, the authors are always equivocation. It's maybe the biggest problem of this paper.
 
 Reference:
+
 1. LAMPORT, L. 1978. Time, clocks, and the ordering of events in a distributed system. Commun. ACM 21, 7 (July), 558¨C565.
 2. HOARE, C. 1974. Monitors: An operating system structuring concept. Commun. ACM 17, 10 (Oct.), 549¨C557.
 3. DINNING, A. AND SCHONBERG, E. 1991. Detecting access anomalies in programs with critical sections. In Proceedings of the ACM/ONR Workshop on Parallel and Distributed Debugging.

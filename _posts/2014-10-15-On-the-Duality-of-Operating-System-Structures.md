@@ -28,6 +28,7 @@ Firstly, they characterize these two models. Comparing the Multi-Thread Model, t
 
 In the next part, For each model, they summarize the requirements, good design practice, the hallmark of a successful system, and detailed canonical model. This part is very Instructive for whom design system.
 The Canonical Model for Event-Driven:
+
 1. Message: A data structure used for sending information
 2. Message Body: The context of the message
 3. Message Identifier: A handle for the massage, you can operate the message with this handle.
@@ -39,6 +40,7 @@ The Canonical Model for Event-Driven:
 9. SendReply (Message identifier, Message Body)
 
 The Canonical Model for Multi-Thread:
+
 1. Procedures: A segment of code (including algorithms), local data, parameters and the return values.
 2. Synchronous Procedure Call: Call and wait for return.
 3. Asynchronous Procedure Call: Fork and Join
@@ -63,12 +65,13 @@ Case, Arms of the Case statement selective|   Entry Attributed, Entry Procedure 
 Waiting For Message|               Condition Variables, Wait, Signal
 
 This mapping relationship shows this two model can be logically interchangeable. But do they have same performance? The authors give a criteria to measure for the performance of a system of programs
+
 1. The execution time
 2. Computational overhead, including scheduling and dispatching.
 3. The queuing and waiting times.
 
 For execution time, the authors test it in GEC4080 and MESA, they imply that the result is no difference in an obscure way; For the conditions for scheduling and dispatching, the author think both conditions are the same; The author also thinks if an event should wait for a dedicated resource to be released in Event-Driven Model, the same situation (waiting for locked resource) will happen in  the Multi-Thread Model. So authors think there is no penalty when using either model.
 
- Although, the authors try to prove these two models are equivalent, but they also admit that the computer architecture and development environment will affect the choice made by designers. The essential rule is which model is more convenient for implementing. They want to persuade the operating system designers to eliminate obstinacy and adopt more sensible solution. They also want to create a uniform way to design systems based on the both ways.
+Although, the authors try to prove these two models are equivalent, but they also admit that the computer architecture and development environment will affect the choice made by designers. The essential rule is which model is more convenient for implementing. They want to persuade the operating system designers to eliminate obstinacy and adopt more sensible solution. They also want to create a uniform way to design systems based on the both ways.
 
 Nowadays, these two kinds of models are always to be used in hybrid ways in the design of operating systems and distributed systems. In my previous project, there is dispatcher for receiving the messages (or events). This dispatcher will route the message to dedicated handler according to the message type and the id.  The handler is not a single thread, actually, is a thread pool, each time a new message comes, it will pick a thread from the pool and assign that message for it. In the UML, it has already unified the design of systems based on these two ways. When you use sequence diagram, to draw the invoking relationship between caller and callee, you will find to call a procedure or to send an event is undifferentiated.
