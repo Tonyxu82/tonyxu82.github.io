@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Eraser - a Dynamic Data Race Detector for Multithreaded Programs
+title: Eraser a Dynamic Data Race Detector for Multithreaded Programs
 author: Tony Xu
 category: Operating System
 description: a paper review of "Savage, S., Burrows, M., Nelson, G., Sobalvarro, P., & Anderson, T. (1997). Eraser a dynamic data race detector for multithreaded programs. ACM Transactions on Computer Systems, 15(4), 391¨C411. doi:10.1145/265924.265927 "
