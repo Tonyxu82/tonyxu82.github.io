@@ -3,7 +3,7 @@ layout: post
 title: SEDA an Architecture for Well Conditioned
 author: Tony Xu
 category: Operating System
-description: This review is based on the paper "Welsh, Matt, David Culler, and Eric Brewer. "SEDA: an architecture for well-conditioned, scalable internet services." ACM SIGOPS Operating Systems Review. Vol. 35. No. 5. ACM, 2001".
+description: This review is based on the paper "Welsh, Matt, David Culler, and Eric Brewer. "SEDA an architecture for well-conditioned, scalable internet services." ACM SIGOPS Operating Systems Review. Vol. 35. No. 5. ACM, 2001".
 ---
 
 This review is based on the paper "Welsh, Matt, David Culler, and Eric Brewer. "SEDA: an architecture for well-conditioned, scalable internet services." ACM SIGOPS Operating Systems Review. Vol. 35. No. 5. ACM, 2001".
