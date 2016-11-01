@@ -31,6 +31,8 @@ is a good resouce to learn design patterns systematically.
 - [JavaTpoint](http://www.javatpoint.com/)
 provides simplied and concise tutorials comparing to official tutorials of Java.
 
+- [Salesforce Cheat Sheets](https://developer.salesforce.com/page/Cheat_Sheets)
+gives us a quick skim of Salesforce products.
 
 ### TECH COMMUNITIES
 
@@ -42,3 +44,8 @@ is a zone for developers.
 
 - [Big O Cheatsheet](http://www.bigocheatsheet.com/)
 guides you in walking around the world of algorithms!
+
+### OPERATIONS
+
+- [Google Webmasters](https://www.google.com/webmasters/)
+provides online courses for how to build and maintian a good website.
