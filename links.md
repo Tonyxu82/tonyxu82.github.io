@@ -54,5 +54,5 @@ provides online courses for how to build and maintian a good website.
 gives us a quick skim of Salesforce products.
 
 ### DESIGN
--[Behance](https://www.behance.net/)
--[Freepick](http://www.freepik.com/)
+- [Behance](https://www.behance.net/)
+- [Freepick](http://www.freepik.com/)
