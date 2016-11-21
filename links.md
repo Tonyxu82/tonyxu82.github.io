@@ -6,11 +6,20 @@ permalink: /links/
 ---
 ![Japanese Garden]({{ site.baseurl }}\img\jpgarden.png)
 
+### SOFTWARE DESIGN
+
+- [Source Making\'s Design Pattern](https://sourcemaking.com/design_patterns)
+is a good resouce to learn design patterns systematically.
+- [Microservices Architecture](http://microservices.io/index.html)
+- [Martin Fowler\'s Blog](http://martinfowler.com/design.html)
+
 ### FRONTEND
 
 - [SVG on the Web](https://svgontheweb.com/)
 - [ECMAScript Language Specifition 6th Edition](http://www.ecma-international.org/ecma-262/6.0/)
 - [Bootstrap](http://getbootstrap.com/)
+- [Behance](https://www.behance.net/)
+- [Freepick](http://www.freepik.com/)
 
 ### BACKEND
 - [Open JDK](http://grepcode.com/project/repository.grepcode.com/java/root/jdk/openjdk/)
@@ -24,9 +33,6 @@ organized way.
 
 - [Mkyong\'s Blog](https://www.mkyong.com/)
 provides tutorials cover most of topic in Java Technologies with sufficient examples.
-
-- [Source Making\'s Design Pattern](https://sourcemaking.com/design_patterns)
-is a good resouce to learn design patterns systematically.
 
 - [Vogella](http://www.vogella.com/tutorials/)
 \'tutorials are one page style, I really love them.
@@ -54,7 +60,3 @@ provides online courses for how to build and maintian a good website.
 - [Christophe Coenraets](http://coenraets.org/blog/)
 - [Salesforce Cheat Sheets](https://developer.salesforce.com/page/Cheat_Sheets)
 gives us a quick skim of Salesforce products.
-
-### DESIGN
-- [Behance](https://www.behance.net/)
-- [Freepick](http://www.freepik.com/)
