@@ -40,6 +40,8 @@ provides tutorials cover most of topic in Java Technologies with sufficient exam
 - [JavaTpoint](http://www.javatpoint.com/)
 provides simplied and concise tutorials comparing to official tutorials of Java.
 
+- [Java Enterprise Performance](https://www.dynatrace.com/resources/ebooks/javabook/) Tunning the performance of large scale application in Java.
+
 ### TECH COMMUNITIES
 
 - [DZone](https://dzone.com/)
