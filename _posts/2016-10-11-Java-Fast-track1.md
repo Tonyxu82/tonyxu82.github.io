@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java Fast Track - Data Types
+title: Code Reading - Data Types
 author: Tony Xu
 category: Java
 description: Summarized data types of Java in one table.
@@ -22,6 +22,10 @@ double   |Double     | 64-bit floating point
 char[]   |String     | N-byte Unicode string
 
 Java supports "auto boxing". That means, Java can "box" a primitive type into its Boxed version or vive versa ("unbox").
+
+## Boolean
+
+
 
 ## REFERENCE
 1. Jakob Jenkov, [jenkov.com](http://tutorials.jenkov.com/java/index.html)
