@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Code Reading - java.lang.String
+title: JDK Code Reading - String
 author: Tony Xu
 category: Java
 description: String class is used to represents character strings in Java. The strings of this class are immutable once they are created.
 ---
 
-# INTRUCTION
+## Introduction
 
 String class is used to represents character strings in Java. The strings of this class are immutable once they are created.
 
-# IMMUTABLENESS
+## Immutablness
 
 [Programcreek](http://www.programcreek.com/2013/04/why-string-is-immutable-in-java/) gives 5 reasons  for immutablesness of String in Java.
 
@@ -27,5 +27,6 @@ private final char value[];
 ```
 
 
-# REFERENCE
+
+## REFERENCE
 1. [Why String is immutable in Java?](http://www.programcreek.com/2013/04/why-string-is-immutable-in-java/)
