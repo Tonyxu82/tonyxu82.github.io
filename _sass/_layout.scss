@@ -52,13 +52,14 @@ body {
 
 .logo {
     margin-bottom: 10.5px;
-    font-weight: $font-weight-bold;
+    //font-weight: $font-weight-bold;
+    font-size: 40px;
 }
 
 .logo a {
     -webkit-transition: 0.4s;
     transition: 0.4s;
-    color: #220
+    color: #9A0000;
 }
 
 .logo a:hover {
